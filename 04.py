@@ -5,5 +5,8 @@ cnt2 = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 for w in cnt1:
     for r in cnt2:
         rst = w * r
-        print(f'{r} × {w} = {rst} ', end='')
+        #print(f'{r} × {w} = {rst}', end='')
+        s = f'{r} × {w} = {rst}'
+
+        print(s.ljust(15), end='')
     print('')

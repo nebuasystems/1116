@@ -6,3 +6,6 @@ for w in cnt:
     for r in range(w):
         print('*', end='')
     print('')
+
+
+

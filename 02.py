@@ -5,6 +5,5 @@ i_number = int(number)
 
 if i_number%2 == 0:
     print('짝수')
-
 else:
     print('홀수')

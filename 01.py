@@ -5,6 +5,5 @@ i_number = int(number)
 
 if i_number%3 == 0:
     print('3의 배수 ok')
-
 else:
     print('3의 배수 아님')

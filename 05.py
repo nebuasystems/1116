@@ -3,10 +3,12 @@
 lst = [10, 12, 14, 15, 16, 17, 18, 19, 20, 25, 30, 32, 33, 37, 40, 42, 44, 46, 50]
 
 count = 0
-s = 0
+sum = 0
 
 for n in lst:
-    print(n)
+    if n%3 == 0:
+        count += 1
+        sum += n
 
-print(f'3의 배수의 갯수:{count}, 3의 배수의 합:{sum}')
+print(f'\n 3의 배수의 갯수 =>{count} \n 3의 배수의 합 =>{sum}')
 
